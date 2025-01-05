@@ -62,4 +62,12 @@ if __name__ == "__main__":
     print()
 
 
+    # membership checking in list
+    flag = 14 in li7
+    print(flag)
+    print()
 
+    # count the occurace of element in list
+    li9 = [1, 2, 1, 3, 4, 1, 15]
+    print( li9.count(1) )
+    print()
