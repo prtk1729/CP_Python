@@ -71,3 +71,22 @@ if __name__ == "__main__":
     li9 = [1, 2, 1, 3, 4, 1, 15]
     print( li9.count(1) )
     print()
+
+
+
+    li = [11, 12, 13, 14, 15, 16]
+
+    # way 1, printing only values
+    for le in li:
+        print(le)
+    print()
+
+    # way 2, printing both idx and values
+    for idx, le in enumerate(li):
+        print(idx, le)
+    print()
+
+    # way3, printing USING idx
+    for idx in range(len(li)):
+        print( idx, li[idx] )
+    print()
